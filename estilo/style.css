@@ -38,12 +38,25 @@
 body{
     background-color: var(--cor0) ;
     font-family:var(--fonte-destaque) ;
+    
 
 }   
 
+header p{
+    
+    padding: 10px;
+    font-weight: bolder;
+    
+}
+
+.logo{
+    height: 150px;
+    
+}
+
 
 header{
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    background-image: url('../imagens/fundo.logo.png');
     background-color: var(--cor3);
     min-height: 150px;
     text-align: center;
@@ -72,7 +85,8 @@ header > p {
 }
 
 nav {
-background-color: var(--cor4);
+background-color: #C0D684;
+
 padding: 10px;
 
 box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363);
@@ -80,7 +94,7 @@ box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363);
 
 }
 nav > a {
-    color: #eef1f1;
+    color: #272e2b;
     padding: 10px;
     border-radius: 10px;
     text-decoration: none;
@@ -117,9 +131,10 @@ main h1 {
 }
 main h2 {
     font-family: var(--fonte-destaque);
-    color: var(--cor4);
-    font-size: 1.3em;
-    background-image: linear-gradient(to right, var(--cor3), transparent);
+    color: aliceblue;
+    font-size: 1.2em;
+    background-color: rgb(90, 134, 39);
+    text-align: center;
     text-indent: 8px;
 }
 
